@@ -35,7 +35,7 @@ const Exercises = ({ exercises, setExercises, bodyParts }) => {
   const indexOfLastExercise = currentPage * exercisesPerPage;
   const indexOfFirstExercise = indexOfLastExercise - exercisesPerPage;
 
-  console.log("exercises type:", Array.isArray(exercises), exercises); // how are we saying it
+  console.log("exercises type:", Array.isArray(exercises), exercises); 
 
   const currentExercises = exercises.slice(
     indexOfFirstExercise,
@@ -67,7 +67,7 @@ const Exercises = ({ exercises, setExercises, bodyParts }) => {
           <Pagination
             color="standard"
             shape="rounded"
-            defaultPage={1} // can we say it normally here
+            defaultPage={1} 
             count={Math.ceil(exercises.length / exercisesPerPage)}
             page={currentPage}
             onChange={paginate}

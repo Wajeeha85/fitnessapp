@@ -13,7 +13,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       exercisesOptions
     );
     console.log(bodyPartsData, "bodyPartsData.bodyPartList");
-    setBodyParts(["all", ...bodyPartsData]); // why use all here
+    setBodyParts(["all", ...bodyPartsData]); 
   };
   console.log(bodyParts);
   useEffect(() => {

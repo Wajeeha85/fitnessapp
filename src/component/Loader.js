@@ -9,7 +9,7 @@ const Loader = () => (
     alignItems="center"
     width="100%"
   >
-    <InfinitySpin color="grey" /> // is this that loading sign
+    <InfinitySpin color="grey" /> 
   </Stack>
 );
 

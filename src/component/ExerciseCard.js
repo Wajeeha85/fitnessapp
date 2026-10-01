@@ -16,7 +16,7 @@ const ExerciseCard = ({ exercise }) => (
           textTransform: "capitalize",
         }}
       >
-        {exercise.bodyPart} // how we are setting tem all
+        {exercise.bodyPart}
       </Button>
       <Button
         sx={{
